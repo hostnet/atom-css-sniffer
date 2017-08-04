@@ -1,0 +1,27 @@
+{
+  "name": "atom-css-sniffer",
+  "main": "./lib/atom-css-sniffer",
+  "version": "1.0.0",
+  "description": "CSS and LESS sniffer for Atom.",
+  "keywords": [
+  ],
+  "repository": "https://github.com/hostnet/atom-css-sniffer",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.6.0",
+    "atom-linter": "^10.0.0"
+  },
+  "package-deps": [
+    "linter"
+  ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  }
+}
