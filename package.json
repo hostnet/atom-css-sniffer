@@ -1,10 +1,9 @@
 {
   "name": "atom-css-sniffer",
   "main": "./lib/atom-css-sniffer",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "CSS and LESS sniffer for Atom.",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/hostnet/atom-css-sniffer",
   "license": "MIT",
   "engines": {
